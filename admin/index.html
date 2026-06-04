@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Umedia 內容管理</title>
+    <link rel="stylesheet" href="/admin/admin.css" />
+  </head>
+  <body>
+    <main class="admin-shell">
+      <section class="login-panel" data-login>
+        <div>
+          <p class="eyebrow">Umedia Admin</p>
+          <h1>內容管理</h1>
+          <p>登入後可修改首頁、產品頁與聯絡頁內容。</p>
+        </div>
+        <form class="login-form" data-login-form>
+          <label>
+            <span>管理密碼</span>
+            <input type="password" name="password" autocomplete="current-password" required />
+          </label>
+          <button type="submit">登入</button>
+          <p class="status" data-login-status hidden></p>
+        </form>
+      </section>
+
+      <template data-editor-template>
+      <section class="editor" data-editor>
+        <aside class="editor-sidebar">
+          <div class="sidebar-brand">
+            <span class="brand-mark">U</span>
+            <div>
+              <p class="eyebrow">Umedia Admin</p>
+              <strong>內容工作台</strong>
+            </div>
+          </div>
+          <nav class="module-nav" data-module-nav aria-label="內容模組"></nav>
+          <a class="site-link" href="/" target="_blank" rel="noreferrer">查看網站</a>
+        </aside>
+
+        <section class="editor-main">
+          <header class="editor-header">
+            <div>
+              <p class="eyebrow" data-current-eyebrow>Content Module</p>
+              <h1 data-current-title>網站內容</h1>
+            </div>
+            <div class="editor-actions">
+              <span class="save-state" data-save-state>已同步</span>
+              <button class="ghost" type="button" data-refresh>重新載入</button>
+              <button type="button" data-save disabled>保存修改</button>
+              <button class="ghost danger" type="button" data-logout>退出登入</button>
+            </div>
+          </header>
+
+          <p class="status" data-editor-status hidden></p>
+          <form class="content-form" data-content-form></form>
+        </section>
+      </section>
+      </template>
+    </main>
+
+    <script src="/admin/admin.js"></script>
+  </body>
+</html>

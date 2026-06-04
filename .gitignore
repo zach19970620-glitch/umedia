@@ -1,6 +1,5 @@
-.DS_Store
-Thumbs.db
-*.log
 .env
-.env.*
-node_modules/
+*.log
+.DS_Store
+assets/uploads/*
+!assets/uploads/.gitkeep

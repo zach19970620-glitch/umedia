@@ -1,0 +1,382 @@
+{
+  "site": {
+    "brand": "Umedia",
+    "headerCta": "預約示範",
+    "footerCopyright": "© 2026 Hongkong Umedia Co., Ltd."
+  },
+  "home": {
+    "seoTitle": "Umedia | AI 智慧雲店與智慧廣告機解決方案",
+    "seoDescription": "Umedia 透過 Unico 智慧雲店系統、AI 內容生成、智慧廣告機與雲端屏幕管理，幫助本地商戶提升門店營銷效率。",
+    "heroEyebrow": "AI Smart Cloud Store",
+    "heroTitle": "Umedia AI 智慧雲店",
+    "heroCopy": "透過 Unico 智慧雲店系統、AI 內容生成、智慧廣告機與雲端屏幕管理，讓本地商戶更快製作內容，更輕鬆管理門店屏幕。",
+    "heroImage": "/assets/01.png",
+    "heroPrimaryCta": "預約產品示範",
+    "heroSecondaryCta": "查看智慧廣告機",
+    "introEyebrow": "One System, Real Store Impact",
+    "introTitle": "不是只買一塊屏幕，而是接入一套 AI 門店營銷系統。",
+    "values": [
+      {
+        "number": "01",
+        "title": "AI 生成內容",
+        "copy": "根據商戶輸入的文字、圖片或產品資料，快速生成海報、菜單、優惠內容與短片廣告。"
+      },
+      {
+        "number": "02",
+        "title": "智慧商顯終端",
+        "copy": "UA32、UA55 等智慧廣告機支援橫豎屏播放、觸摸互動、遠程發佈與長時間穩定運行。"
+      },
+      {
+        "number": "03",
+        "title": "雲端屏幕管理",
+        "copy": "手機、平板或電腦即可管理多台屏幕、多間門店、播放排程與內容同步。"
+      }
+    ],
+    "platformTitle": "從內容生成到屏幕發佈，一條流程完成。",
+    "platformCopy": "Unico 將 AIGC 商業內容生成、智能模板、自動排版、雲端屏幕管理與多行業場景結合，讓商戶不需要專業設計或剪輯能力，也能快速完成門店宣傳內容。",
+    "platformImage": "/assets/02.png",
+    "productsTitle": "智慧廣告機產品矩陣",
+    "productsCopy": "以真實硬件承接 AI 內容與雲端管理，覆蓋前台互動、店內展示、櫥窗廣告與大屏宣傳。",
+    "contactTitle": "讓 Umedia 團隊為你的門店設計智慧屏幕方案。",
+    "contactCopy": "適合正在規劃門店屏幕、AI 內容生成、多門店發佈或智慧商顯升級的商戶與品牌。"
+  },
+  "products": {
+    "ua32": {
+      "seoTitle": "UA32 AI 智慧廣告機 | Umedia",
+      "seoDescription": "UA32 AI 智慧廣告機，32 寸 Android 14 智慧商顯終端，支援觸摸、攝像頭、麥克風、遠程發佈與 Unico 智慧雲店系統。",
+      "kicker": "UA32 Smart Terminal",
+      "title": "UA32 AI 智慧廣告機",
+      "image": "/assets/03.png",
+      "summary": "32 寸智慧商顯終端，適合前台互動、小型門店展示、服務業接待與 AI 內容播放。搭載 Android 14、8G 內存與 128G 存儲，可與 Unico 智慧雲店系統配合使用。",
+      "positioningTitle": "面向門店前台與互動展示的 AI 智慧終端。",
+      "positioningCopy": "UA32 更適合部署在接待台、服務櫃檯、教育中心入口、美容門店前台與零售小空間。它不只是播放廣告，也可以承接觸摸互動、產品展示、預約導流與 AI 內容呈現。",
+      "highlights": [
+        "Android 14 系統",
+        "RK3576S 高性能方案",
+        "8G 內存與 128G 存儲",
+        "電容觸摸，支援橫豎屏安裝",
+        "外掛 500W 攝像頭與雙麥克風",
+        "支援遠程發佈管理、定時開關機與崩潰自恢復"
+      ],
+      "specsTitle": "UA32 主要規格",
+      "specs": [
+        {
+          "label": "產品名稱",
+          "value": "AI 智慧廣告機"
+        },
+        {
+          "label": "產品型號",
+          "value": "UA32"
+        },
+        {
+          "label": "面板尺寸",
+          "value": "32 inch TFT-LCD"
+        },
+        {
+          "label": "分辨率",
+          "value": "1920 x 1080 @60Hz"
+        },
+        {
+          "label": "亮度",
+          "value": "250 +/- 10% cd/m2"
+        },
+        {
+          "label": "對比度",
+          "value": "1200:1"
+        },
+        {
+          "label": "可視角度",
+          "value": "178° / 178°"
+        },
+        {
+          "label": "CPU",
+          "value": "四核 Cortex-A72 + 四核 Cortex-A53，最高 2.1GHz"
+        },
+        {
+          "label": "GPU",
+          "value": "Mali-G52 MC3"
+        },
+        {
+          "label": "內存 / 存儲",
+          "value": "8G / 128G"
+        },
+        {
+          "label": "網絡",
+          "value": "2.4GHz WiFi6、LAN 10M/100M，5GHz WiFi 選配"
+        },
+        {
+          "label": "端口",
+          "value": "USB x2、RJ45、HDMI IN、Audio"
+        },
+        {
+          "label": "安裝",
+          "value": "壁掛，支持橫豎屏"
+        },
+        {
+          "label": "整機尺寸",
+          "value": "735.6 x 430 x 66.5 mm"
+        }
+      ],
+      "useCaseTitle": "適合需要互動與精緻展示的門店空間。",
+      "useCases": [
+        "美容店前台療程介紹與套票展示",
+        "服務業接待台客戶互動與預約導流",
+        "教育中心課程介紹與招生資訊",
+        "零售店產品導覽與會員活動展示"
+      ],
+      "ctaTitle": "想了解 UA32 如何接入 Unico 智慧雲店？"
+    },
+    "ua55": {
+      "seoTitle": "UA55 AI 智慧廣告機 | Umedia",
+      "seoDescription": "UA55 AI 智慧廣告機，55 寸 Android 11 大屏智慧商顯，支援橫豎屏播放、視頻分屏、滾動字幕、遠程發佈與 7x24 小時運行。",
+      "kicker": "UA55 Commercial Display",
+      "title": "UA55 AI 智慧廣告機",
+      "image": "/assets/04.png",
+      "summary": "55 寸大屏智慧商顯，適合門店櫥窗、大堂、餐廳、展廳與高曝光位置。支援橫豎屏播放、視頻分屏、滾動字幕、遠程升級與 7x24 小時無人值守。",
+      "positioningTitle": "為門店高曝光位置而設的大屏廣告終端。",
+      "positioningCopy": "UA55 適合需要強視覺吸引力與長時間穩定播放的場景。它能與 Unico 智慧雲店配合，讓商戶遠程更新屏幕內容、安排播放任務，並快速展示 AI 生成的海報與短片廣告。",
+      "highlights": [
+        "55 寸 16:9 大屏顯示",
+        "Android 11 系統，RK3566 四核處理器",
+        "支持橫豎屏播放、視頻分屏與滾動字幕",
+        "支持定時開關、播放排程與終端管理",
+        "支持遠程、USB、電腦等多種升級方式",
+        "硬件與軟件穩定性設計，適合 7x24 小時運行"
+      ],
+      "specsTitle": "UA55 主要規格",
+      "specs": [
+        {
+          "label": "產品名稱",
+          "value": "AI 智慧廣告機"
+        },
+        {
+          "label": "產品型號",
+          "value": "UA55"
+        },
+        {
+          "label": "屏幕尺寸",
+          "value": "55 inch"
+        },
+        {
+          "label": "分辨率",
+          "value": "1920 x 1080"
+        },
+        {
+          "label": "有效顯示區域",
+          "value": "1209 x 680.5 mm"
+        },
+        {
+          "label": "亮度",
+          "value": "350 cd/m2"
+        },
+        {
+          "label": "對比度",
+          "value": "3000:1"
+        },
+        {
+          "label": "可視角度",
+          "value": "178° / 178°"
+        },
+        {
+          "label": "CPU",
+          "value": "四核 64 位 Cortex-A55，最高 1.8GHz"
+        },
+        {
+          "label": "內存",
+          "value": "DDR4 2G / 4G / 8G 可選"
+        },
+        {
+          "label": "存儲",
+          "value": "EMMC 32G / 64G / 128G 可選"
+        },
+        {
+          "label": "網絡",
+          "value": "以太網，內置 WiFi 802.11b/g/n"
+        },
+        {
+          "label": "接口",
+          "value": "USB、串口、GPIO/ADC、HDMI、LVDS、EDP 等"
+        },
+        {
+          "label": "功耗",
+          "value": "不高於 120W"
+        }
+      ],
+      "useCaseTitle": "適合橱窗、大堂和高曝光門店廣告。",
+      "useCases": [
+        "餐飲店大屏菜單與套餐優惠",
+        "零售櫥窗新品展示與促銷內容",
+        "商場、大堂、展廳品牌宣傳",
+        "多門店統一內容排程與遠程發布"
+      ],
+      "ctaTitle": "想了解 UA55 的門店部署與遠程管理方案？"
+    }
+  },
+  "contact": {
+    "seoTitle": "預約產品示範 | Umedia",
+    "seoDescription": "聯絡 Umedia 團隊，預約 Unico 智慧雲店系統、UA32、UA55 智慧廣告機與行業解決方案產品示範。",
+    "eyebrow": "Book a Demo",
+    "title": "預約 Umedia 產品示範",
+    "summary": "告訴我們你的門店類型、屏幕需求與內容更新方式，Umedia 團隊可以協助你評估 Unico 智慧雲店、UA32、UA55 及行業方案如何落地。",
+    "discussionTitle": "適合在 Demo 中討論的內容",
+    "discussionItems": [
+      { "title": "系統演示", "copy": "了解 Unico 如何從商戶資料生成海報、短片廣告，並發佈到智慧屏幕。" },
+      { "title": "硬件選型", "copy": "根據前台、櫥窗、大堂、餐廳或多門店場景，選擇 UA32、UA55 或組合方案。" },
+      { "title": "行業內容", "copy": "針對餐飲、教育、地產、美容、零售與服務業設計展示內容與模板方向。" },
+      { "title": "雲端管理", "copy": "討論多屏分組、播放排程、遠程發佈、定時開關機與多門店同步。" },
+      { "title": "部署規劃", "copy": "確認屏幕尺寸、安裝方式、網絡條件、內容更新頻率與日常管理流程。" },
+      { "title": "合作模式", "copy": "適合商戶、連鎖品牌、服務商、渠道合作與企業級智慧商顯項目。" }
+    ]
+  },
+  "homeExtra": {
+    "capabilityOneEyebrow": "AI Content Generation",
+    "capabilityOneTitle": "把商戶資料變成可播放的門店內容。",
+    "capabilityOneCopy": "Umedia 的 AIGC 能力面向真實商戶場景，理解價格、優惠、產品、課程、房源與會員活動等資料，生成更適合屏幕展示的視覺內容。",
+    "capabilityTwoEyebrow": "Cloud Screen Management",
+    "capabilityTwoTitle": "多屏、多店、多排程，集中管理。",
+    "capabilityTwoCopy": "支援遠程內容上傳、播放排程、設備分組、多門店同步、終端狀態監控與定時開關機，降低日常運營成本。",
+    "solutionsEyebrow": "Industry Solutions",
+    "solutionsTitle": "為本地商戶而設的 AI 門店方案",
+    "solutionsCopy": "從餐飲菜單到美容套票，Unico 將行業內容生成與智慧屏幕發佈結合，讓不同門店都能快速更新展示內容。",
+    "solutionCards": [
+      { "title": "餐飲門店", "copy": "每日餐牌、套餐優惠、限時活動、會員推廣與屏幕菜單更新。" },
+      { "title": "美容與服務業", "copy": "療程介紹、套票優惠、預約導流、產品展示與前台互動。" },
+      { "title": "教育中心", "copy": "課程招生、活動通知、年齡段分眾推廣。" },
+      { "title": "地產代理", "copy": "房源展示、價格資訊、地段亮點與二維碼諮詢。" },
+      { "title": "零售品牌", "copy": "新品展示、促銷排程、會員活動與櫥窗廣告。" }
+    ],
+    "technologyEyebrow": "Core Technology",
+    "technologyTitle": "圍繞智慧雲店場景建立技術與專利布局。",
+    "techCards": [
+      { "kicker": "AIGC", "title": "商業內容生成", "copy": "自動生成海報、餐牌、課程廣告、產品介紹與活動內容。" },
+      { "kicker": "Video", "title": "AI 影片生成", "copy": "將文字、圖片及產品資料轉化為適合屏幕播放的短片廣告。" },
+      { "kicker": "Input", "title": "多模態輸入", "copy": "支援文字、語音、圖片與影片輸入，降低前線員工使用門檻。" },
+      { "kicker": "Layout", "title": "智能模板排版", "copy": "根據行業、內容類型與屏幕尺寸，自動匹配視覺版面。" },
+      { "kicker": "Cloud", "title": "雲端屏幕管理", "copy": "遠程發佈、多屏管理、播放排程與多門店內容同步。" },
+      { "kicker": "Edge AI", "title": "邊緣 AI 布局", "copy": "為未來本地推理、多屏協同與企業級部署提供技術延伸。" }
+    ],
+    "aboutEyebrow": "About Umedia",
+    "aboutTitle": "由硬件系統能力與 AI 博士研發團隊共同支撐。",
+    "aboutCopy": "Umedia 由具備 FPGA、作業系統與智能硬件背景的創始人 Mark 創立，並由 John 張博士及 Sam 何博士共同推動人工智能、AIGC、影片生成、視覺識別與智慧雲店技術研發。",
+    "teamCards": [
+      { "title": "Mark", "copy": "Umedia 創始人，負責產品願景、系統架構與 AI 產品落地。" },
+      { "title": "John 張博士", "copy": "支持 AI 內容理解、商業場景建模、智能模板生成與推薦系統。" },
+      { "title": "Sam 何博士", "copy": "負責 AIGC、AI 影片生成、視覺識別與商業化視覺內容生成技術。" }
+    ]
+  },
+  "pages": {
+    "unico": {
+      "seoTitle": "Unico 智慧雲店系統 | Umedia",
+      "seoDescription": "Unico 智慧雲店系統結合 AI 內容生成、AI 影片生成、智能模板、自動排版與雲端屏幕管理，幫助本地商戶一鍵發佈內容到智慧廣告機。",
+      "eyebrow": "Unico Smart Cloud Store",
+      "title": "Unico 智慧雲店系統",
+      "image": "/assets/02.png",
+      "summary": "一套面向本地商戶的 AI 門店內容與屏幕管理平台。商戶可以輸入產品、優惠、課程或活動資料，由 AI 生成海報與短片內容，並一鍵發佈到 UA32、UA55 等智慧廣告機。",
+      "workflowEyebrow": "Workflow",
+      "workflowTitle": "從一句促銷描述，到多台屏幕同步播放。",
+      "workflowCopy": "Unico 將商戶日常內容更新流程拆成五個清晰步驟，減少設計、剪輯、上傳與現場管理成本。",
+      "workflow": [
+        { "number": "01", "title": "輸入資料", "copy": "輸入文字、上傳產品圖片、菜單相片、影片素材或活動資訊。" },
+        { "number": "02", "title": "AI 理解", "copy": "系統識別行業、優惠、價格、時間、展示目的與屏幕比例。" },
+        { "number": "03", "title": "生成內容", "copy": "自動生成海報、短片廣告、屏幕版面與行動呼籲。" },
+        { "number": "04", "title": "預覽修改", "copy": "在手機、平板或電腦上檢查效果，快速調整樣式與內容。" },
+        { "number": "05", "title": "發佈到屏幕", "copy": "選擇門店、屏幕與播放時間，一鍵推送並同步更新。" }
+      ],
+      "modulesTitle": "Unico 核心功能模組",
+      "modules": [
+        { "kicker": "AIGC", "title": "商業內容生成", "copy": "生成海報、餐牌、優惠、課程廣告、產品介紹與門店公告。" },
+        { "kicker": "Video", "title": "AI 短片廣告", "copy": "根據文字、圖片和產品資料生成適合智慧屏幕播放的動態內容。" },
+        { "kicker": "Template", "title": "行業模板庫", "copy": "覆蓋餐飲、教育、地產、美容、零售與服務業常見展示需求。" },
+        { "kicker": "Layout", "title": "自動排版適配", "copy": "根據 UA32、UA55 和不同橫豎屏比例自動匹配畫面結構。" },
+        { "kicker": "Device", "title": "終端設備管理", "copy": "管理屏幕名稱、分組、狀態、播放任務、音量和定時開關。" },
+        { "kicker": "Store", "title": "多門店同步", "copy": "支持總部統一發佈，也支持不同分店使用不同內容排程。" }
+      ],
+      "ctaTitle": "想看 Unico 如何生成內容並發佈到智慧屏幕？"
+    },
+    "solutions": {
+      "seoTitle": "行業解決方案 | Umedia",
+      "seoDescription": "Umedia 行業解決方案覆蓋餐飲、教育、地產、美容、零售與服務業，透過 Unico 智慧雲店與 UA32、UA55 智慧廣告機提升門店內容展示與營銷效率。",
+      "eyebrow": "Industry Solutions",
+      "title": "AI 智慧雲店行業方案",
+      "image": "/assets/01.png",
+      "summary": "不同行業需要展示的內容不同，但共同痛點一致：內容更新慢、設計成本高、屏幕管理分散。Umedia 將 AI 內容生成、智慧廣告機與雲端管理整合成可落地的門店方案。",
+      "flowTitle": "每個行業都可以用同一套流程提升內容效率。",
+      "flow": [
+        { "number": "01", "title": "整理商戶資料", "copy": "產品、價格、套餐、課程、房源、優惠或活動資訊。" },
+        { "number": "02", "title": "選擇行業模板", "copy": "按餐飲、教育、地產、美容、零售等場景匹配內容結構。" },
+        { "number": "03", "title": "AI 生成畫面", "copy": "生成海報、短片廣告、屏幕版面與促銷文案。" },
+        { "number": "04", "title": "適配屏幕設備", "copy": "根據 UA32、UA55、橫屏或豎屏自動調整展示比例。" },
+        { "number": "05", "title": "遠程發布管理", "copy": "發佈到指定屏幕、分店或排程，集中完成內容更新。" }
+      ],
+      "featuredTitle": "高頻落地場景",
+      "featured": [
+        { "title": "餐飲門店", "copy": "每日餐牌、套餐優惠、限時促銷、新品推薦、節日活動與會員二維碼展示。" },
+        { "title": "美容與服務業", "copy": "療程介紹、套票價格、預約導流、產品推薦、會員活動與前台互動展示。" }
+      ],
+      "matrixTitle": "更多行業應用",
+      "matrix": [
+        { "title": "餐飲", "copy": "更新頻率高，適合用 AI 快速生成菜單、優惠海報和動態廣告。", "items": ["電子餐牌", "午市 / 晚市優惠", "新品與套餐推廣"] },
+        { "title": "教育", "copy": "招生資訊多，適合按課程、年齡段與活動時間生成宣傳內容。", "items": ["課程招生", "試堂活動", "校區公告"] },
+        { "title": "地產", "copy": "資料標準化程度高，適合自動生成房源展示、地段亮點和查詢入口。", "items": ["房源展示", "價格與面積資訊", "二維碼諮詢"] },
+        { "title": "美容", "copy": "促銷與套票頻繁，適合在前台、櫥窗與接待區展示高質感內容。", "items": ["療程介紹", "套票優惠", "會員活動"] },
+        { "title": "零售", "copy": "新品、節日和會員活動變化快，適合多屏同步與排程播放。", "items": ["新品展示", "櫥窗促銷", "會員日活動"] },
+        { "title": "服務業", "copy": "適合在接待區展示服務項目、流程、價格與預約入口。", "items": ["服務項目", "預約導流", "客戶通知"] }
+      ],
+      "hardwareTitle": "不同場景搭配不同屏幕。",
+      "hardwareCopy": "UA32 適合近距離互動、前台接待與小型空間；UA55 適合大屏曝光、櫥窗展示、餐廳大堂和多門店統一播放。兩者都可以接入 Unico 內容與雲端管理能力。",
+      "hardwareItems": [
+        "前台互動：UA32 + 觸摸 + 攝像頭 / 麥克風",
+        "櫥窗展示：UA55 + 竖屏廣告內容",
+        "餐飲大屏：UA55 + 分時段菜單排程",
+        "多門店：Unico 雲端管理 + 分組發佈"
+      ],
+      "ctaTitle": "想根據你的行業設計一套智慧雲店方案？"
+    },
+    "technology": {
+      "seoTitle": "核心技術 | Umedia",
+      "seoDescription": "Umedia 核心技術涵蓋 AIGC 商業內容生成、AI 影片生成、多模態輸入、智能模板、自動排版、雲端屏幕管理、AI 視覺識別、邊緣 AI 與專利布局。",
+      "eyebrow": "Core Technology",
+      "title": "核心技術",
+      "image": "/assets/16.png",
+      "summary": "Umedia 的技術不是孤立的 AI 模型展示，而是圍繞本地商戶的真實門店流程：理解資料、生成內容、匹配版面、管理屏幕、同步多店，並逐步延伸到視覺識別與邊緣 AI。",
+      "directionTitle": "從 AI 生成到智慧商顯，形成完整商業閉環。",
+      "directionCopy": "傳統廣告屏通常只負責播放內容，真正困難的是內容如何快速產生、如何適配不同屏幕、如何遠程管理多台設備、如何讓前線員工也能低門檻操作。Umedia 的技術布局正是圍繞這條閉環展開。",
+      "modulesTitle": "八大核心技術模組",
+      "modules": [
+        { "kicker": "AIGC", "title": "商業內容生成", "copy": "根據商戶需求自動生成海報、餐牌、優惠內容、課程廣告及產品介紹。" },
+        { "kicker": "AI Video", "title": "AI 影片生成", "copy": "將文字、圖片及產品資料轉化為適合門店屏幕播放的短片廣告。" },
+        { "kicker": "Multimodal", "title": "多模態輸入", "copy": "支援文字、語音、圖片及影片輸入，讓商戶資料更容易被系統理解。" },
+        { "kicker": "Template", "title": "智能模板", "copy": "針對餐飲、教育、地產、美容、零售等行業建立商業展示模板。" },
+        { "kicker": "Layout", "title": "自動排版", "copy": "根據內容類型、屏幕尺寸和橫豎屏比例，生成合適的視覺版面。" },
+        { "kicker": "Cloud", "title": "雲端屏幕管理", "copy": "支援遠程發佈、多屏管理、播放排程、多門店分組與內容同步。" },
+        { "kicker": "Vision", "title": "AI 視覺識別", "copy": "為未來互動展示、場景理解、客流分析與智能內容切換提供基礎。" },
+        { "kicker": "Edge AI", "title": "邊緣 AI 布局", "copy": "面向低延遲、本地推理、多屏協同與企業級部署進行技術延伸。" }
+      ],
+      "ctaTitle": "想了解智慧雲店的技術合作或部署方式？"
+    },
+    "about": {
+      "seoTitle": "關於 Umedia | AI 智慧雲店技術公司",
+      "seoDescription": "關於 Umedia：以 AI 技術重新定義本地商戶的內容生成、門店展示與智慧營銷方式，研發 Unico 智慧雲店系統與智慧廣告機解決方案。",
+      "eyebrow": "About Umedia",
+      "title": "關於 Umedia",
+      "image": "/assets/01.png",
+      "summary": "Umedia 是一家以人工智能技術為核心的科技公司，專注研發 Unico 智慧雲店系統，幫助本地商戶透過 AI 快速生成宣傳內容、管理智慧屏幕，並提升門店營銷效率。",
+      "missionTitle": "讓每一間門店都擁有自己的 AI 行銷助手。",
+      "missionCopy": "在傳統門店營運中，商戶需要頻繁更新餐牌、優惠海報、招生資訊、房源展示、美容套票和活動公告。Umedia 希望透過簡單、實用、可規模化部署的 AI 產品，幫助商戶降低內容生產和屏幕管理成本。",
+      "whyTitle": "為什麼做智慧雲店？",
+      "whyCopy": "AI 不應只是大型企業或專業團隊使用的複雜工具。真正有價值的 AI 產品，應該能進入商戶每天的營運流程。",
+      "stories": [
+        { "title": "內容更新頻繁", "copy": "本地商戶經常需要更新促銷、菜單、課程、房源、療程和會員活動，但每次更新都可能涉及文案、設計、剪輯和上屏。" },
+        { "title": "前線操作門檻高", "copy": "很多門店沒有專職設計或 IT 人員。系統必須足夠簡單，讓前線員工也能用文字、圖片或語音完成內容生成。" },
+        { "title": "硬件與系統要穩定", "copy": "屏幕部署在門店現場，需要長時間穩定運行，也需要遠程管理、定時開關、播放排程和設備狀態監控。" }
+      ],
+      "teamTitle": "創始人與博士研發團隊",
+      "people": [
+        { "kicker": "Founder", "title": "Mark", "copy": "Mark 是 Umedia 創始人，具備 FPGA、作業系統、智能硬件及 AI 產品整合背景。他負責公司產品願景及系統架構，專注將複雜 AI 技術轉化為本地商戶可以日常使用的實用工具。" },
+        { "kicker": "AI Research", "title": "John 張博士", "copy": "John 張博士畢業於北京大學，並曾於俄亥俄州立大學完成博士後研究。他支持 Umedia 在 AI 內容理解、商業場景建模、智能模板生成及推薦系統方面的研發。" },
+        { "kicker": "AIGC & Vision", "title": "Sam 何博士", "copy": "Sam 何博士畢業於香港大學，擁有人工智能博士背景，並在影片技術、電腦視覺及生成式 AI 方向擁有多項發明專利。他負責 AIGC、AI 影片生成與視覺識別方向。" }
+      ],
+      "ctaTitle": "想與 Umedia 團隊交流智慧雲店方案？"
+    }
+  }
+}

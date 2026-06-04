@@ -6,15 +6,16 @@
     <meta
       name="description"
       content="聯絡 Umedia 團隊，預約 Unico 智慧雲店系統、UA32、UA55 智慧廣告機與行業解決方案產品示範。"
+      data-cms-attr="content:contact.seoDescription"
     />
-    <title>預約產品示範 | Umedia</title>
+    <title data-cms-title="contact.seoTitle">預約產品示範 | Umedia</title>
     <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
     <header class="site-header is-scrolled">
       <a class="brand" href="../index.html" aria-label="Umedia home">
         <span class="brand-mark">U</span>
-        <span class="brand-text">Umedia</span>
+        <span class="brand-text" data-cms="site.brand">Umedia</span>
       </a>
       <nav class="nav" aria-label="Primary navigation">
         <a href="../platform/unico.html">Unico</a>
@@ -23,16 +24,16 @@
         <a href="../technology/">技術</a>
         <a href="../about/">關於</a>
       </nav>
-      <a class="header-cta" href="../contact/">預約示範</a>
+      <a class="header-cta" href="../contact/" data-cms="site.headerCta">預約示範</a>
     </header>
 
     <main class="product-page">
       <section class="product-hero contact-hero">
         <div class="container contact-grid">
           <div>
-            <p class="eyebrow">Book a Demo</p>
-            <h1>預約 Umedia 產品示範</h1>
-            <p class="hero-copy">
+            <p class="eyebrow" data-cms="contact.eyebrow">Book a Demo</p>
+            <h1 data-cms="contact.title">預約 Umedia 產品示範</h1>
+            <p class="hero-copy" data-cms="contact.summary">
               告訴我們你的門店類型、屏幕需求與內容更新方式，Umedia 團隊可以協助你評估 Unico 智慧雲店、UA32、UA55 及行業方案如何落地。
             </p>
             <div class="contact-points">
@@ -79,9 +80,9 @@
         <div class="container">
           <div class="section-heading">
             <p class="eyebrow">What We Can Discuss</p>
-            <h2>適合在 Demo 中討論的內容</h2>
+            <h2 data-cms="contact.discussionTitle">適合在 Demo 中討論的內容</h2>
           </div>
-          <div class="industry-grid">
+          <div class="industry-grid" data-cms-repeat="contact.discussionItems">
             <article>
               <h3>系統演示</h3>
               <p>了解 Unico 如何從商戶資料生成海報、短片廣告，並發佈到智慧屏幕。</p>
@@ -113,12 +114,13 @@
 
     <footer class="footer">
       <div class="container footer-inner">
-        <p>© 2026 Hongkong Umedia Co., Ltd.</p>
+        <p data-cms="site.footerCopyright">© 2026 Hongkong Umedia Co., Ltd.</p>
         <a href="../index.html">返回首頁</a>
       </div>
     </footer>
 
     <script src="../form-config.js"></script>
+    <script src="../content-loader.js"></script>
     <script src="../script.js"></script>
   </body>
 </html>

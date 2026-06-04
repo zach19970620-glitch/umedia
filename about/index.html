@@ -6,15 +6,16 @@
     <meta
       name="description"
       content="關於 Umedia：以 AI 技術重新定義本地商戶的內容生成、門店展示與智慧營銷方式，研發 Unico 智慧雲店系統與智慧廣告機解決方案。"
+      data-cms-attr="content:pages.about.seoDescription"
     />
-    <title>關於 Umedia | AI 智慧雲店技術公司</title>
+    <title data-cms-title="pages.about.seoTitle">關於 Umedia | AI 智慧雲店技術公司</title>
     <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
     <header class="site-header is-scrolled">
       <a class="brand" href="../index.html" aria-label="Umedia home">
         <span class="brand-mark">U</span>
-        <span class="brand-text">Umedia</span>
+        <span class="brand-text" data-cms="site.brand">Umedia</span>
       </a>
       <nav class="nav" aria-label="Primary navigation">
         <a href="../platform/unico.html">Unico</a>
@@ -23,16 +24,16 @@
         <a href="../technology/">技術</a>
         <a href="../about/">關於</a>
       </nav>
-      <a class="header-cta" href="../contact/">預約示範</a>
+      <a class="header-cta" href="../contact/" data-cms="site.headerCta">預約示範</a>
     </header>
 
     <main class="product-page">
       <section class="product-hero">
         <div class="container product-hero-grid">
           <div>
-            <p class="eyebrow">About Umedia</p>
-            <h1>關於 Umedia</h1>
-            <p class="hero-copy">
+            <p class="eyebrow" data-cms="pages.about.eyebrow">About Umedia</p>
+            <h1 data-cms="pages.about.title">關於 Umedia</h1>
+            <p class="hero-copy" data-cms="pages.about.summary">
               Umedia 是一家以人工智能技術為核心的科技公司，專注研發 Unico 智慧雲店系統，幫助本地商戶透過 AI 快速生成宣傳內容、管理智慧屏幕，並提升門店營銷效率。
             </p>
             <div class="hero-actions">
@@ -41,7 +42,7 @@
             </div>
           </div>
           <figure class="image-panel product-main-image">
-            <img src="../assets/01.png" alt="Umedia 智慧雲店與智慧商顯應用場景" />
+            <img src="../assets/01.png" alt="Umedia 智慧雲店與智慧商顯應用場景" data-cms-image="pages.about.image" />
           </figure>
         </div>
       </section>
@@ -50,8 +51,8 @@
         <div class="container detail-grid">
           <article>
             <p class="eyebrow">Mission</p>
-            <h2>讓每一間門店都擁有自己的 AI 行銷助手。</h2>
-            <p>
+            <h2 data-cms="pages.about.missionTitle">讓每一間門店都擁有自己的 AI 行銷助手。</h2>
+            <p data-cms="pages.about.missionCopy">
               在傳統門店營運中，商戶需要頻繁更新餐牌、優惠海報、招生資訊、房源展示、美容套票和活動公告。Umedia 希望透過簡單、實用、可規模化部署的 AI 產品，幫助商戶降低內容生產和屏幕管理成本。
             </p>
           </article>
@@ -71,10 +72,10 @@
         <div class="container">
           <div class="section-heading">
             <p class="eyebrow">Why Smart Cloud Store</p>
-            <h2>為什麼做智慧雲店？</h2>
-            <p>AI 不應只是大型企業或專業團隊使用的複雜工具。真正有價值的 AI 產品，應該能進入商戶每天的營運流程。</p>
+            <h2 data-cms="pages.about.whyTitle">為什麼做智慧雲店？</h2>
+            <p data-cms="pages.about.whyCopy">AI 不應只是大型企業或專業團隊使用的複雜工具。真正有價值的 AI 產品，應該能進入商戶每天的營運流程。</p>
           </div>
-          <div class="story-grid">
+          <div class="story-grid" data-cms-repeat="pages.about.stories">
             <article>
               <h3>內容更新頻繁</h3>
               <p>本地商戶經常需要更新促銷、菜單、課程、房源、療程和會員活動，但每次更新都可能涉及文案、設計、剪輯和上屏。</p>
@@ -95,9 +96,9 @@
         <div class="container">
           <div class="section-heading">
             <p class="eyebrow">Leadership & Research</p>
-            <h2>創始人與博士研發團隊</h2>
+            <h2 data-cms="pages.about.teamTitle">創始人與博士研發團隊</h2>
           </div>
-          <div class="people-grid">
+          <div class="people-grid" data-cms-repeat="pages.about.people">
             <article>
               <span>Founder</span>
               <h3>Mark</h3>
@@ -152,7 +153,7 @@
         <div class="container footer-cta">
           <div>
             <p class="eyebrow">Next Step</p>
-            <h2>想與 Umedia 團隊交流智慧雲店方案？</h2>
+            <h2 data-cms="pages.about.ctaTitle">想與 Umedia 團隊交流智慧雲店方案？</h2>
           </div>
           <a class="btn primary" href="../contact/">聯絡我們</a>
         </div>
@@ -161,11 +162,12 @@
 
     <footer class="footer">
       <div class="container footer-inner">
-        <p>© 2026 Hongkong Umedia Co., Ltd.</p>
+        <p data-cms="site.footerCopyright">© 2026 Hongkong Umedia Co., Ltd.</p>
         <a href="../contact/">聯絡我們</a>
       </div>
     </footer>
 
+    <script src="../content-loader.js"></script>
     <script src="../script.js"></script>
   </body>
 </html>

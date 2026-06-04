@@ -6,15 +6,16 @@
     <meta
       name="description"
       content="Unico 智慧雲店系統結合 AI 內容生成、AI 影片生成、智能模板、自動排版與雲端屏幕管理，幫助本地商戶一鍵發佈內容到智慧廣告機。"
+      data-cms-attr="content:pages.unico.seoDescription"
     />
-    <title>Unico 智慧雲店系統 | Umedia</title>
+    <title data-cms-title="pages.unico.seoTitle">Unico 智慧雲店系統 | Umedia</title>
     <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
     <header class="site-header is-scrolled">
       <a class="brand" href="../index.html" aria-label="Umedia home">
         <span class="brand-mark">U</span>
-        <span class="brand-text">Umedia</span>
+        <span class="brand-text" data-cms="site.brand">Umedia</span>
       </a>
       <nav class="nav" aria-label="Primary navigation">
         <a href="../platform/unico.html">Unico</a>
@@ -23,16 +24,16 @@
         <a href="../technology/">技術</a>
         <a href="../about/">關於</a>
       </nav>
-      <a class="header-cta" href="../contact/">預約示範</a>
+      <a class="header-cta" href="../contact/" data-cms="site.headerCta">預約示範</a>
     </header>
 
     <main class="product-page">
       <section class="product-hero">
         <div class="container product-hero-grid">
           <div>
-            <p class="eyebrow">Unico Smart Cloud Store</p>
-            <h1>Unico 智慧雲店系統</h1>
-            <p class="hero-copy">
+            <p class="eyebrow" data-cms="pages.unico.eyebrow">Unico Smart Cloud Store</p>
+            <h1 data-cms="pages.unico.title">Unico 智慧雲店系統</h1>
+            <p class="hero-copy" data-cms="pages.unico.summary">
               一套面向本地商戶的 AI 門店內容與屏幕管理平台。商戶可以輸入產品、優惠、課程或活動資料，由 AI 生成海報與短片內容，並一鍵發佈到 UA32、UA55 等智慧廣告機。
             </p>
             <div class="hero-actions">
@@ -41,18 +42,18 @@
             </div>
           </div>
           <figure class="image-panel product-main-image">
-            <img src="../assets/02.png" alt="Unico 智慧雲店系統流程界面" />
+            <img src="../assets/02.png" alt="Unico 智慧雲店系統流程界面" data-cms-image="pages.unico.image" />
           </figure>
         </div>
       </section>
 
       <section class="band">
         <div class="container section-heading">
-          <p class="eyebrow">Workflow</p>
-          <h2>從一句促銷描述，到多台屏幕同步播放。</h2>
-          <p>Unico 將商戶日常內容更新流程拆成五個清晰步驟，減少設計、剪輯、上傳與現場管理成本。</p>
+          <p class="eyebrow" data-cms="pages.unico.workflowEyebrow">Workflow</p>
+          <h2 data-cms="pages.unico.workflowTitle">從一句促銷描述，到多台屏幕同步播放。</h2>
+          <p data-cms="pages.unico.workflowCopy">Unico 將商戶日常內容更新流程拆成五個清晰步驟，減少設計、剪輯、上傳與現場管理成本。</p>
         </div>
-        <div class="container workflow-grid">
+        <div class="container workflow-grid" data-cms-repeat="pages.unico.workflow">
           <article><span>01</span><h3>輸入資料</h3><p>輸入文字、上傳產品圖片、菜單相片、影片素材或活動資訊。</p></article>
           <article><span>02</span><h3>AI 理解</h3><p>系統識別行業、優惠、價格、時間、展示目的與屏幕比例。</p></article>
           <article><span>03</span><h3>生成內容</h3><p>自動生成海報、短片廣告、屏幕版面與行動呼籲。</p></article>
@@ -90,9 +91,9 @@
         <div class="container">
           <div class="section-heading">
             <p class="eyebrow">Modules</p>
-            <h2>Unico 核心功能模組</h2>
+            <h2 data-cms="pages.unico.modulesTitle">Unico 核心功能模組</h2>
           </div>
-          <div class="tech-grid">
+          <div class="tech-grid" data-cms-repeat="pages.unico.modules">
             <article><span>AIGC</span><h3>商業內容生成</h3><p>生成海報、餐牌、優惠、課程廣告、產品介紹與門店公告。</p></article>
             <article><span>Video</span><h3>AI 短片廣告</h3><p>根據文字、圖片和產品資料生成適合智慧屏幕播放的動態內容。</p></article>
             <article><span>Template</span><h3>行業模板庫</h3><p>覆蓋餐飲、教育、地產、美容、零售與服務業常見展示需求。</p></article>
@@ -126,7 +127,7 @@
         <div class="container footer-cta">
           <div>
             <p class="eyebrow">Next Step</p>
-            <h2>想看 Unico 如何生成內容並發佈到智慧屏幕？</h2>
+            <h2 data-cms="pages.unico.ctaTitle">想看 Unico 如何生成內容並發佈到智慧屏幕？</h2>
           </div>
           <a class="btn primary" href="../contact/">預約系統示範</a>
         </div>
@@ -135,11 +136,12 @@
 
     <footer class="footer">
       <div class="container footer-inner">
-        <p>© 2026 Hongkong Umedia Co., Ltd.</p>
+        <p data-cms="site.footerCopyright">© 2026 Hongkong Umedia Co., Ltd.</p>
         <a href="../contact/">預約系統示範</a>
       </div>
     </footer>
 
+    <script src="../content-loader.js"></script>
     <script src="../script.js"></script>
   </body>
 </html>
