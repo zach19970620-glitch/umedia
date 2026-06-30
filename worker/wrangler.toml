@@ -1,0 +1,11 @@
+name = "umedia-contact-form"
+main = "src/index.js"
+compatibility_date = "2025-06-01"
+
+# 環境變數（生產環境請使用 wrangler secret 設置）
+[vars]
+FROM_EMAIL = "Umedia <contact@umedia.com.hk>"
+
+# 密鑰（使用 wrangler secret 設置）
+# wrangler secret put RESEND_API_KEY
+# wrangler secret put RECIPIENT_EMAIL

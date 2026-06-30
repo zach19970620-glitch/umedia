@@ -924,6 +924,32 @@ section {
   color: #ffb4b4;
 }
 
+/* 蜜罐欄位：對人類隱藏 */
+.hp-field {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* 表單驗證樣式 */
+.contact-form input:user-invalid,
+.contact-form textarea:user-invalid,
+.contact-form select:user-invalid {
+  border-color: #e94560;
+}
+
+.contact-form label small {
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
 .footer {
   padding: 24px 0;
   color: rgba(255, 255, 255, 0.74);
@@ -935,6 +961,7 @@ section {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .footer p {
@@ -945,6 +972,35 @@ section {
 .footer a {
   color: var(--teal);
   font-weight: 700;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.74);
+  background: rgba(255, 255, 255, 0.08);
+  transition: background 200ms ease, color 200ms ease;
+}
+
+.footer-social a:hover {
+  color: var(--white);
+  background: var(--teal);
+}
+
+.footer-social svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
 }
 
 @media (max-width: 900px) {

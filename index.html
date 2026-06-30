@@ -248,23 +248,27 @@
             <h2>讓 Umedia 團隊為你的門店設計智慧屏幕方案。</h2>
             <p>適合正在規劃門店屏幕、AI 內容生成、多門店發佈或智慧商顯升級的商戶與品牌。</p>
           </div>
-          <form class="contact-form" method="post">
+          <form class="contact-form" method="post" novalidate>
             <p class="form-status" role="status" aria-live="polite" hidden></p>
+            <!-- 蜜罐欄位：對人類隱藏，機器人會填寫 -->
+            <div class="hp-field" aria-hidden="true">
+              <input type="text" name="hp" tabindex="-1" autocomplete="off" />
+            </div>
             <label>
-              <span>姓名</span>
-              <input type="text" name="name" placeholder="你的姓名" required />
+              <span>姓名 <small>(必填)</small></span>
+              <input type="text" name="name" placeholder="你的姓名" required minlength="2" maxlength="100" />
             </label>
             <label>
               <span>公司 / 門店</span>
-              <input type="text" name="company" placeholder="公司或門店名稱" />
+              <input type="text" name="company" placeholder="公司或門店名稱" maxlength="200" />
             </label>
             <label>
-              <span>聯絡方式</span>
-              <input type="text" name="contact" autocomplete="tel" inputmode="tel" placeholder="電話、WhatsApp 或 Email" required />
+              <span>聯絡方式 <small>(必填)</small></span>
+              <input type="text" name="contact" autocomplete="tel" inputmode="tel" placeholder="電話、WhatsApp 或 Email" required minlength="3" />
             </label>
             <label>
-              <span>需求</span>
-              <textarea name="message" rows="4" placeholder="例如：想了解 UA32、UA55 或 Unico 系統" required></textarea>
+              <span>需求 <small>(必填，至少10字)</small></span>
+              <textarea name="message" rows="4" placeholder="例如：想了解 UA32、UA55 或 Unico 系統" required minlength="10" maxlength="5000"></textarea>
             </label>
             <button class="btn primary" type="submit">提交諮詢</button>
           </form>
@@ -275,6 +279,11 @@
     <footer class="footer">
       <div class="container footer-inner">
         <p>© 2026 Hongkong Umedia Co., Ltd.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/profile.php?id=61554776982011" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+        </div>
         <a href="#top">回到頂部</a>
       </div>
     </footer>

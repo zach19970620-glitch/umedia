@@ -1,5 +1,8 @@
 /**
- * 联系表单提交地址（Formspree、Getform 等兼容 POST + FormData 的服务）。
- * 示例：https://formspree.io/f/xxxxxxxx
+ * Umedia 聯繫表單提交地址
+ *
+ * 生產環境：使用 Cloudflare Workers + Resend API
+ * 開發環境：使用 wrangler dev 本地端點
  */
-window.UMEDIA_FORM_ENDPOINT = "";
+window.UMEDIA_FORM_ENDPOINT =
+  "https://umedia.zh19970620.workers.dev";
