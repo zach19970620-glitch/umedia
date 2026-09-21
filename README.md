@@ -1,84 +1,74 @@
-# umedia-television
+# Umedia 官方網站
 
-Umedia 純靜態網站。
+Umedia AI 智慧雲店與智慧廣告機解決方案官方網站。
+
+## 技術架構
+
+- **前端**：純靜態 HTML/CSS/JS
+- **托管**：Cloudflare Pages
+- **表單 API**：Cloudflare Workers + Resend
+- **域名**：Cloudflare DNS
 
 ## 目錄結構
 
-- `index.html`：首頁
-- `platform/`：Unico 系統頁
-- `products/`：UA32、UA55 產品頁
-- `solutions/`：行業方案頁
-- `technology/`：核心技術頁
-- `about/`：關於頁
-- `contact/`：聯絡頁
-- `assets/`：圖片資源
-- `styles.css`：全站樣式
-- `script.js`：前端互動與表單提交
-- `form-config.js`：聯絡表單提交地址配置
-
-## 本地預覽
-
-可以直接打開 `index.html`，也可以用任意靜態服務器預覽：
-
-```bash
-python3 -m http.server 3000
+```
+umedia-website/
+├── index.html              # 首頁
+├── about/                  # 關於頁
+├── contact/                # 聯繫頁
+├── platform/               # Unico 系統頁
+├── products/               # 產品頁 (UA32, UA55)
+├── solutions/              # 行業方案頁
+├── technology/             # 核心技術頁
+├── assets/                 # 圖片資源
+├── styles.css              # 全站樣式
+├── script.js               # 前端互動與表單提交
+├── form-config.js          # 表單 API 配置
+├── worker/                 # Cloudflare Worker (聯繫表單 API)
+│   ├── src/index.js
+│   ├── wrangler.toml
+│   └── package.json
+├── wrangler.toml           # Pages 部署配置
+├── package.json            # npm 配置
+└── DEPLOY.md               # 部署文檔
 ```
 
-打開：
+## 本地開發
 
-```text
-http://localhost:3000/
+```bash
+# 安裝依賴
+npm install
+
+# 本地預覽
+npm run dev
 ```
 
 ## 部署
 
-把以下文件和目錄上傳到服務器網站根目錄即可：
+詳見 [DEPLOY.md](DEPLOY.md)
 
-```text
-about/
-assets/
-contact/
-platform/
-products/
-solutions/
-technology/
-form-config.js
-index.html
-script.js
-styles.css
+### 快速部署
+
+```bash
+# 1. 部署聯繫表單 Worker
+cd worker
+npx wrangler deploy
+
+# 2. 部署靜態網站
+cd ..
+npm run deploy
 ```
 
-## Nginx 示例
+## 聯繫表單
 
-```nginx
-server {
-    listen 80;
-    listen [::]:80;
-    server_name www.hkumedia.com;
+表單通過 Cloudflare Workers 處理，使用 Resend API 發送郵件。
 
-    root /var/www/umedia-website;
-    index index.html;
-
-    location /assets/ {
-        try_files $uri =404;
-    }
-
-    location ~* \.(?:js|mjs|css|png|jpe?g|gif|webp|svg|ico|woff2?|ttf)$ {
-        try_files $uri =404;
-    }
-
-    location / {
-        try_files $uri $uri/ /index.html;
-    }
-}
-```
-
-## 聯絡表單
-
-如果需要啟用表單提交，在 `form-config.js` 中配置提交地址：
+配置在 `form-config.js` 中：
 
 ```js
-window.UMEDIA_FORM_ENDPOINT = "https://example.com/your-form-endpoint";
+window.UMEDIA_FORM_ENDPOINT = "https://umedia-contact-form.your-account.workers.dev";
 ```
 
-如果不配置，表單會提示尚未設定提交地址。
+## 社交媒體
+
+- Facebook: https://www.facebook.com/profile.php?id=61554776982011

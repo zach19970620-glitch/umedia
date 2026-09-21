@@ -1,0 +1,13 @@
+{
+  "name": "umedia-website",
+  "version": "1.0.0",
+  "description": "Umedia AI Smart Cloud Store official website",
+  "scripts": {
+    "dev": "wrangler pages dev . --compatibility-date=2025-06-01",
+    "deploy": "wrangler pages deploy . --branch=main",
+    "deploy:staging": "wrangler pages deploy . --branch=staging"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

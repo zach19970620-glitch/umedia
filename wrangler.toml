@@ -1,0 +1,50 @@
+name = "umedia-website"
+compatibility_date = "2025-06-01"
+
+# 靜態資產上傳配置
+[assets]
+directory = "."
+
+# 排除不需要上傳的文件
+[[assets.rules]]
+globs = ["**/*"]
+exclude = [
+  ".git",
+  ".gitignore",
+  ".DS_Store",
+  ".cursor",
+  "worker",
+  "scripts",
+  "doc",
+  "doc/**",
+  "dist",
+  "node_modules",
+  "*.md",
+  "*.sh",
+  "*.xlsx",
+  "*.docx",
+  "*.txt",
+  "package.json",
+  "wrangler.toml",
+]
+
+# 自定義響應頭
+[[assets.headers]]
+for = "*.css"
+[assets.headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
+
+[[assets.headers]]
+for = "*.js"
+[assets.headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
+
+[[assets.headers]]
+for = "assets/*"
+[assets.headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
+
+[[assets.headers]]
+for = "*.html"
+[assets.headers.values]
+Cache-Control = "public, max-age=0, must-revalidate"

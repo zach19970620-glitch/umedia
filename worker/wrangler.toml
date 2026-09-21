@@ -1,4 +1,4 @@
-name = "umedia-contact-form"
+name = "umedia"
 main = "src/index.js"
 compatibility_date = "2025-06-01"
 
