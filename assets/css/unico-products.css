@@ -522,3 +522,255 @@
     transition: none;
   }
 }
+
+/* ---- 詳情頁優化 ---- */
+
+.unico-detail-hero {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at 78% 30%, rgba(19, 168, 158, 0.14), transparent 55%),
+    linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);
+}
+
+.unico-detail-hero h1 {
+  font-size: clamp(34px, 4.4vw, 56px);
+  line-height: 1.12;
+}
+
+.unico-product-shot {
+  background:
+    radial-gradient(circle at 50% 30%, rgba(19, 168, 158, 0.22), transparent 55%),
+    #101518;
+}
+
+.unico-product-shot img {
+  transition: transform 400ms ease;
+}
+
+.unico-product-shot:hover img {
+  transform: scale(1.03);
+}
+
+.unico-subnav {
+  position: sticky;
+  z-index: 15;
+  top: 61px;
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(14px);
+}
+
+.unico-subnav-inner {
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.unico-subnav-inner::-webkit-scrollbar {
+  display: none;
+}
+
+.unico-subnav a {
+  flex: none;
+  padding: 14px 14px 12px;
+  border-bottom: 2px solid transparent;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: color 160ms ease, border-color 160ms ease;
+}
+
+.unico-subnav a:hover,
+.unico-subnav a.is-active {
+  color: var(--teal-dark);
+  border-bottom-color: var(--teal);
+}
+
+.unico-page section[id] {
+  scroll-margin-top: 120px;
+}
+
+.unico-page main > section:not(.unico-detail-hero) {
+  padding: 72px 0;
+}
+
+.unico-feature-stack {
+  gap: 72px;
+}
+
+.unico-feature-copy h3 {
+  font-size: clamp(22px, 2.4vw, 30px);
+}
+
+.unico-feature-copy p {
+  color: var(--muted);
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.unico-feature-visual {
+  background:
+    radial-gradient(circle at 50% 40%, rgba(19, 168, 158, 0.16), transparent 60%),
+    #101518;
+}
+
+.unico-reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 600ms ease, transform 600ms ease;
+}
+
+.unico-reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+.unico-gallery:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 4px;
+  border-radius: 8px;
+}
+
+.unico-gallery-stage {
+  position: relative;
+  background:
+    radial-gradient(circle at 50% 40%, rgba(19, 168, 158, 0.16), transparent 60%),
+    #101518;
+}
+
+.unico-gallery-stage .unico-caption {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+.unico-gallery-arrow {
+  position: absolute;
+  top: 44%;
+  display: grid;
+  width: 44px;
+  height: 44px;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.14);
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 160ms ease;
+}
+
+.unico-gallery-arrow:hover,
+.unico-gallery-arrow:focus-visible {
+  background: var(--teal);
+}
+
+.unico-gallery-arrow.is-prev {
+  left: 14px;
+}
+
+.unico-gallery-arrow.is-next {
+  right: 14px;
+}
+
+.unico-gallery-count {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  color: var(--white);
+  background: rgba(255, 255, 255, 0.14);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.unico-thumb {
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+
+.unico-thumb:hover {
+  transform: translateY(-2px);
+}
+
+.unico-thumb.is-active {
+  border-color: var(--teal);
+}
+
+.spec-table div:nth-child(odd) {
+  background: rgba(247, 249, 248, 0.6);
+}
+
+.unico-card {
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.unico-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 900px) {
+  .unico-subnav {
+    top: 52px;
+  }
+
+  .unico-page main > section:not(.unico-detail-hero) {
+    padding: 52px 0;
+  }
+
+  .unico-feature-stack {
+    gap: 48px;
+  }
+
+  .unico-page section[id] {
+    scroll-margin-top: 108px;
+  }
+}
+
+@media (max-width: 620px) {
+  .unico-thumbs {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    scroll-snap-type: x proximity;
+  }
+
+  .unico-thumb {
+    flex: 0 0 76px;
+    scroll-snap-align: center;
+  }
+
+  .unico-gallery-arrow {
+    width: 38px;
+    height: 38px;
+  }
+
+  .hero-actions .btn {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .unico-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .unico-product-shot img {
+    transition: none;
+  }
+}
+
+/* width/height 屬性會被當成固定高度，改由 aspect-ratio 決定 */
+.unico-product-shot img,
+.unico-feature-visual img,
+.unico-gallery-stage img,
+.unico-thumb img {
+  height: auto;
+}

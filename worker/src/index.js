@@ -10,6 +10,9 @@
 
 // 支持的來源域名（根據實際部署更新）
 const ALLOWED_ORIGINS = [
+  'https://www.hkumedia.com',
+  'https://hkumedia.com',
+  'https://umedia-website.pages.dev',
   'https://umedia.com.hk',
   'https://www.umedia.com.hk',
   'http://localhost:8787',
